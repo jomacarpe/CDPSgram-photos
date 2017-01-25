@@ -5,7 +5,7 @@ var multer = require('multer');
 
 var app = express();
 
-var media_path = __dirname + '/media/';
+var media_path = __dirname + '/nas/';
 
 var port = parseInt(process.env.PORT || '80', 10);
 app.listen(port);
